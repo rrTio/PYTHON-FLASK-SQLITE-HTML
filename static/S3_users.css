@@ -1,0 +1,30 @@
+* {
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+}
+#demo {
+  border-collapse: collapse;
+}
+#demo tr:nth-child(odd) {
+  background: #f2f2f2;
+}
+#demo td {
+  padding: 10px;
+}
+
+td, th{
+  border: 2px solid black;
+  padding: 5px 5px 5px 1px;
+}
+
+td{
+  font-weight: bold;
+}
+
+tr:nth-child(even){
+  background-color: #b8c1c1;
+}
+
+table{
+  border:5px solid black;
+}
